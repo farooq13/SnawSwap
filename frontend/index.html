@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SnawSwap</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white font-sans antialiased">
+
+  <!-- Container -->
+  <div class="min-h-screen flex flex-col items-center justify-center p-4">
+    <div class="max-w-4xl w-full space-y-12">
+
+      <!-- Swap Interface -->
+      <div class="w-full max-w-lg mx-auto bg-gray-800/80 backdrop-blur-lg border border-gray-700 shadow-xl rounded-xl p-8 space-y-6">
+        <h2 class="text-3xl font-extrabold text-center text-teal-400">SnawSwap</h2>
+        <p class="text-center text-sm text-gray-400">Easily swap your Solana tokens for Nigerian Naira</p>
+
+        <div class="space-y-6">
+          <!-- Token Selector -->
+          <div>
+            <label class="text-sm font-medium text-gray-300 block mb-2">Select Token</label>
+            <select class="w-full bg-gray-700 text-white rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-teal-400 transition">
+              <option value="USDT">USDT</option>
+              <option value="USDC">USDC</option>
+              <option value="SOL">SOL</option>
+            </select>
+          </div>
+
+          <!-- Amount Input -->
+          <div>
+            <label class="text-sm font-medium text-gray-300 block mb-2">Amount</label>
+            <input type="number" placeholder="Enter amount" class="w-full bg-gray-700 text-white placeholder-gray-400 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-teal-400 transition" />
+          </div>
+
+          <!-- Swap Icon -->
+          <div class="flex items-center justify-center">
+            <div class="h-12 w-12 flex items-center justify-center bg-teal-400 text-gray-900 rounded-full shadow-lg transform hover:scale-105 transition">
+              ⇄
+            </div>
+          </div>
+
+          <!-- Bank Account Input -->
+          <div>
+            <label class="text-sm font-medium text-gray-300 block mb-2">Bank Account</label>
+            <input type="text" placeholder="e.g., Access Bank - 0123456789" class="w-full bg-gray-700 text-white placeholder-gray-400 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-teal-400 transition" />
+          </div>
+
+          <!-- Swap Button -->
+          <button class="w-full bg-teal-400 text-gray-900 hover:bg-teal-500 transition font-semibold py-3 rounded-lg text-base shadow-md transform hover:scale-[1.02]">
+            Swap Now
+          </button>
+        </div>
+      </div>
+
+      <!-- Loading Animation -->
+      <div class="flex items-center justify-center">
+        <div class="animate-spin rounded-full h-12 w-12 border-t-[3px] border-b-[3px] border-teal-400"></div>
+      </div>
+
+      <!-- Swap History Section -->
+      <div class="bg-gray-800/70 border border-gray-700 rounded-xl p-8 shadow-xl">
+        <h3 class="text-xl font-bold mb-6 text-teal-400">Swap History</h3>
+        <table class="w-full text-left text-sm">
+          <thead class="text-gray-300 border-b border-gray-700">
+            <tr>
+              <th class="py-3 px-4">Date</th>
+              <th class="py-3 px-4">Token</th>
+              <th class="py-3 px-4">Amount</th>
+              <th class="py-3 px-4">To (NGN)</th>
+            </tr>
+          </thead>
+          <tbody class="text-gray-400 divide-y divide-gray-700">
+            <!-- Example Row -->
+            <tr>
+              <td class="py-3 px-4">2025-04-10</td>
+              <td class="py-3 px-4">USDT</td>
+              <td class="py-3 px-4">50</td>
+              <td class="py-3 px-4">₦38,000</td>
+            </tr>
+            <!-- Example Row -->
+            <tr>
+              <td class="py-3 px-4">2025-04-08</td>
+              <td class="py-3 px-4">SOL</td>
+              <td class="py-3 px-4">1.2</td>
+              <td class="py-3 px-4">₦55,000</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>  
+  </div>
+
+</body>
+</html>
