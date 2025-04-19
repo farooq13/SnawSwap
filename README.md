@@ -80,9 +80,9 @@ This project is licensed under the MIT License.
 
 **Faruk Idris**.
 
-Building for Colessum Hackathon 2025 💡
+Building for Colessum Hackathon 2025 
 
 Follow the journey on [Twitter](https://x.com/farukidris_)
 
-#SnawSwap 🚀
+#SnawSwap 
 
