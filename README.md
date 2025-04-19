@@ -4,21 +4,21 @@
 **SnawSwap is a decentralized crypto-to-fiat swapping platform built on the Solana blockchain that enables users to swap tokens (e.g., USDT, USDC, SOL) for Nigerian Naira (₦) directly into their bank accounts via a secure and non-custodial system.**<br>
 
 
-## 🔥 Key Features
+##  Key Features
 
-- ⚡ Fast and Low-Cost Swaps – Powered by Solana blockchain.
-- 🔐 Non-Custodial – Users retain control of their assets.
+-  Fast and Low-Cost Swaps – Powered by Solana blockchain.
+-  Non-Custodial – Users retain control of their assets.
 
-- 💱 Token to Naira Swap – USDT, USDC, or SOL  to ₦.
+-  Token to Naira Swap – USDT, USDC, or SOL  to ₦.
 
-- 🏦 Direct Bank Payouts – Funds go straight into Nigerian bank accounts.
+-  Direct Bank Payouts – Funds go straight into Nigerian bank accounts.
 
-- 🧑‍🤝‍🧑 P2P Liquidity Network – Matched with real users or liquidity partners.
+-  P2P Liquidity Network – Matched with real users or liquidity partners.
 
-- 📜 Transparent History – Users can view transaction history securely<br>
+-  Transparent History – Users can view transaction history securely<br>
 
 
-# 🚀 Getting Started
+#  Getting Started
 
 ## 1. Clone the repository
 
@@ -37,7 +37,7 @@ npx tailwindcss -i ./input.css -o ./css/style.css --watch
 ### Open ``frontend/index.html`` in your browser to preview the UI.
 
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 - #### Frontend: HTML, Tailwind CSS
 
@@ -46,7 +46,7 @@ npx tailwindcss -i ./input.css -o ./css/style.css --watch
 - #### Payments: P2P or third-party APIs for NGN disbursement
 
 
-## 🧠Works How It
+## Works How It
 
 1. User connects wallet and selects token to swap.
 
@@ -56,7 +56,7 @@ npx tailwindcss -i ./input.css -o ./css/style.css --watch
 4. NGN equivalent is transferred to their bank account via liquidity partner.
 5. All operations logged securely.
 
-## 🏗️ Scalability
+##  Scalability
 
 - The system supports adding more fiat currencies.
 
@@ -64,19 +64,19 @@ npx tailwindcss -i ./input.css -o ./css/style.css --watch
 
 - Optional KYC integration for regulatory compliance.
 
-## 🧪 Development Mode
+##  Development Mode
 
 ```rust
 solana config set --url https://api.devnet.solana.com
 ```
 
-## 🤝 Contributing
+##  Contributing
 ### ***Pull requests are welcome. For major changes, please open an issue first.***
 
-## 📄 License
+##  License
 This project is licensed under the MIT License.
 
-## 👨‍💻 Author
+##  Author
 
 **Faruk Idris**.
 
